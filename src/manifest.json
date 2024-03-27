@@ -1,0 +1,12 @@
+{
+    "name": "DLsite Converter",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "どこかのサイトの単語を変換します。",
+    "content_scripts": [
+        {
+            "matches": ["https://*/*"],
+            "js": ["content_script.js"]
+        }
+    ]
+}
